@@ -1,0 +1,315 @@
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+  }
+
+.lighter {
+    font-weight: lighter;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.font-gray {
+    color: rgb(66, 65, 65);
+}
+
+/* nav header */
+
+.nav-header {
+    width: 100%;
+    display: flex;
+    height: 4rem;
+}
+
+.nav-header .nav-mobile-container {
+    display: none;
+}
+
+.nav-header .nav-left-container {
+    width: 50%;
+    padding: 2rem 0 2rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header .nav-right-container {
+    width: 50%;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-header .nav-right-container .nav-menus {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header .nav-right-container .nav-menus .nav-sub-menu {
+    padding: 0 1rem 0 1rem;
+}
+
+/* banner container */
+
+.banner-container {
+    background-color: lightgray;
+    width: 100%;
+    padding-right: 80px;
+    display: flex;
+}
+
+.banner-container img {
+    width: 60%;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    display: flex;
+}
+
+.banner-container .banner-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:40%;
+    margin: 20px 0 20px 0;
+}
+
+.banner-container .banner-text h1 {
+    font-size: 3rem;
+    margin: 10px 0 
+}
+
+.banner-container .banner-text p {
+    font-size: 2rem;
+}
+
+.banner-container .banner-text button {
+    font-size: 2rem;
+    color:white;
+    background-color: rgb(95, 94, 94);
+    padding: 0.5rem 0 0.5rem 0;
+    /* margin: 20px 0 20px 0; */
+}
+
+/* main container */
+
+.main-container {
+    width: 100%;
+    display: flex;
+}
+
+.main-container .main-container-left {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    width: 56%; /* should be 60% */
+}
+
+.main-container .main-container-left img {
+    width: 100%;
+}
+
+.main-container .main-container-left .main-text h1 {
+    font-size: 2.5rem;
+    padding: 2rem 0 1.5rem 0;
+}
+
+.main-container .main-container-left .main-text .main-credit {
+    padding: 2rem 0 0 0;
+}
+
+.main-container .main-container-right {
+    /* background-color: brown; */
+    padding: 2rem 0 2rem 0;
+    width: 44%; /* should be 40% */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .main-container-right .orientation-date-container
+{
+    display: flex;
+    height: 33.33%;
+    padding: 0 2rem 1rem 1rem;
+}
+
+
+.main-container .main-container-right .our-campus-container ,
+.main-container .main-container-right .our-guest-lecture-container
+{
+    /* background-color: ; */
+    display: flex;
+    height: 33.33%;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.main-container .main-container-right .orientation-date-container img ,
+.main-container .main-container-right .our-campus-container img,
+.main-container .main-container-right .our-guest-lecture-container img
+{
+    height: auto;   /* shoul be auto; */
+    width: 35%;
+    padding-right: 1rem;
+}
+
+.main-container .main-container-right .orientation-date-container .orientation-date-detail,  
+.main-container .main-container-right .our-campus-container .our-campus-detail,
+.main-container .main-container-right .our-guest-lecture-container .our-guest-lecture-detail
+{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-container .main-container-right .orientation-date-container .orientation-date-detail p,
+.main-container .main-container-right .our-campus-container p,
+.main-container .main-container-right .our-guest-lecture-container p {
+    padding: 0.5rem 0;
+}
+
+
+/* Course Container */
+
+.course-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.course-container .course-header h1 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.course-container .course-lists {
+    padding: 0 4.5rem 2rem 4.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-container .course-lists div {
+    width: 33%;
+}
+
+.course-container .course-lists div img {
+    /* background-color: blueviolet; */
+    height: auto;
+    width: 100%;
+}
+
+.course-container .course-lists div div {
+    padding: 1rem 1rem 1.5rem 1rem ;
+    width: 100%;
+}
+
+.course-container .course-lists div p {
+    padding-top: 0.5rem;
+}
+
+/* Thesis container */
+
+.thesis-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.thesis-container .thesis-header h1 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.thesis-container .thesis-big-container {
+    display: flex;
+    width: 100%;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-left{
+    width:60%;
+    padding: 0rem 1.5rem 2rem 1.5rem;
+    height: 100%;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-left video{
+    width: 100%;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-left h1{
+   margin: 1.5rem 0 0.5rem 0;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right {
+    width:40%;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-fisma {
+    background-color: lightgray;
+    display: flex;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-fisma img {
+    width: 35%;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-fisma .thesis-fisma-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-fisma .thesis-fisma-detail h1 {
+    font-size: 1.5rem;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-now-and-then {
+    display: flex;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-now-and-then img {
+    width: 35%;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-now-and-then .thesis-now-and-then-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis-container .thesis-big-container .thesis-big-container-right .thesis-now-and-then .thesis-now-and-then-detail h1 {
+    font-size: 1.5rem;
+}
+
+/* Web Footer */
+
+.web-footer {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.web-footer .footer-right {
+    display: flex;
+}
+
+.web-footer .footer-right .term {
+    padding-right: 1.5rem;
+}

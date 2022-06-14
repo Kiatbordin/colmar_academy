@@ -1,0 +1,188 @@
+@media screen and (max-width: 768px) {
+    * { 
+        /* border: 1px solid black; */
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background-color: white;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 768px; */
+    }
+
+/* mobile nav header */
+
+    .nav-header .nav-left-container,
+    .nav-header .nav-right-container {
+        display: none;
+    }
+
+    .nav-header .nav-mobile-container {
+        display: flex;
+        height: 4rem;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+/* mobile banner */
+
+    .banner-container  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+        background-color: grey;
+    }
+
+    .banner-container img {
+        width: 100%;
+        padding: 0 0;
+    }
+
+    .banner-container .banner-text {
+        width: 100%;
+        padding: 2rem 1rem 2rem 1rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .banner-container .banner-text p {
+        margin: 2rem 0 1.5rem 0;
+    }
+
+/* mobile main container */
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-container .main-container-left {
+        display: none;
+    }
+
+    .main-container .main-container-right {
+        width: 100%;
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .main-container .main-container-right .orientation-date-container,
+    .main-container .main-container-right .our-campus-container,
+    .main-container .main-container-right .our-guest-lecture-container
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .main-container .main-container-right .our-campus-container ,
+    .main-container .main-container-right .our-guest-lecture-container
+    {
+        display: flex;
+    }
+
+    .main-container .main-container-right .orientation-date-container img ,
+    .main-container .main-container-right .our-campus-container img,
+    .main-container .main-container-right .our-guest-lecture-container img
+    {
+        width: 100%;
+        height: 10rem;
+        padding: 0;
+    }
+
+    .main-container .main-container-right .orientation-date-container .orientation-date-detail,  
+    .main-container .main-container-right .our-campus-container .our-campus-detail,
+    .main-container .main-container-right .our-guest-lecture-container .our-guest-lecture-detail
+    {
+        width: 100%;
+        padding: 1rem 1rem 4rem 1rem;
+    }
+
+    .main-container .main-container-right .our-guest-lecture-container .our-guest-lecture-detail {
+        padding-bottom: 0;
+    }
+
+/* courses container */
+
+    .course-container {
+        background-color: white;
+    }
+
+    .course-container .course-header h1{
+        padding: 2rem 0 1rem 0;
+    }
+
+    .course-container .course-lists {
+        padding: 0 1rem 2rem 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-container .course-lists div {
+        width: 100%;
+        
+        padding: 1rem 1rem 1.5rem 1;
+    }
+
+    .course-container .course-lists div div {
+        margin-bottom: 0.5rem;
+        background-color: lightgray;
+    }
+
+    .course-container .course-lists div img {
+        display: none;
+    }
+
+    .course-container .course-lists div div p {
+        display: none;
+    } 
+
+    .course-container .course-lists div div h1 {
+        background-color: lightgray;
+    } 
+
+    /* thesis container */
+
+    .thesis-container .thesis-header h1 {
+        padding: 2rem 0 1rem 0;
+    }
+
+    .thesis-container .thesis-big-container .thesis-big-container-right {
+        display: none;
+    }
+
+    .thesis-container .thesis-big-container .thesis-big-container-left {
+        width: 100%;
+        padding: 0 0 1.5rem 0;
+    }
+
+    .thesis-container .thesis-big-container .thesis-big-container-left p,
+    .thesis-container .thesis-big-container .thesis-big-container-left h1
+    {
+        display: none;
+    }
+
+    /* web footer  */
+    
+    .web-footer {
+        padding: 1rem;
+        height: 3rem;
+    }
+
+    .web-footer .footer-right {
+        display: none;
+    }
+
+    .web-footer .footer-left {
+        width: 100%;
+    }
+
+}
